@@ -30,6 +30,6 @@ const test_task = async (req, res, next) => {
     }
 }
 
-router.post('/task-backend', test_task, regular_handler)
+router.post('/task', test_task, regular_handler)
 
 module.exports = router;
